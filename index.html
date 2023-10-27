@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div id="app">
+    <table id="table">
+      <tr>
+        <td>
+          <label for="nev">Teljes név:</label>
+        </td>
+        <td>
+          <input type="text" id="nev" name="nev">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="orszag">Ország:</label>
+        </td>
+        <td>
+          <input type="text" id="orszag" name="orszag">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="varos">Város:</label>
+        </td>
+        <td>
+          <input type="text" id="varos" name="varos">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="utcaHazszam">Utca, házszám:</label>
+        </td>
+        <td>
+          <input type="text" id="utcaHazszam" name="utcaHazszam">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="iranyitoszam">Irányítószám:</label>
+        </td>
+        <td>
+          <input type="text" id="iranyitoszam" name="iranyitoszam">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bankkartyaSzam">Bankkártya szám:</label>
+        </td>
+        <td>
+          <input type="text" id="bankkartyaSzam" name="bankkartyaSzam">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="ellenorzoKod">Ellenőrző kód:</label>
+        </td>
+        <td>
+          <input type="number" id="ellenorzoKod" name="ellenorzoKod">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bankkartyaNev">Bankkártyára írt név:</label>
+        </td>
+        <td>
+          <input type="text" id="bankkartyaNev" name="bankkartyaNev">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="buttonSubmit">Fizetés</button>
+        </td>
+      </tr>
+    </table>
+    <p id="hibaUzenet"></p>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
